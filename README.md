@@ -1,0 +1,6 @@
+- 👋 Hi, I’m @JoelVallejo
+- 👀 I’m interested in DEVELOPER Sofware and Criminalistics.
+- 📚I finished my study as a Technologist and I continue to prepare myself
+- 🌱 I’m currently learning front-end
+- 💞️ I’m looking to collaborate on ...
+- 📫 How to reach me ...
