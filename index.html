@@ -42,7 +42,7 @@
           <h1>Estudios</h1>
         </header>
 
-        <h2>Titulo: Ingeniero en Tecnologias de la Informacion y Comunicacion</h2>
+        <h2>Titulo: Ingeniero en Tecnologias de la Informacion y Comunicacion (Cursando)</h2>
         <h3> <a href="https://utb.edu.ec/" target="_blank">Universidad Técnica de Babahoyo</a></h3>
 
         <p>
@@ -197,16 +197,17 @@
             </legend>
             <p>
               <label for="form_text">Nombre y Apellido:</label>
-              <input type="text" id="form_text"/><br/>
+              <input type="text" id="form_text" required minlength="5" maxlength="30" placeholder="ej: Pedro Alvan" /><br/>
             </p>
             <p>
               <label for="form_textarea">Mensaje:</label><br/>
-              <textarea name="mensaje" id="form_textarea" cols="30" rows="10"></textarea>
+              <textarea name="mensaje" id="form_textarea" cols="30" rows="10" minlength="30" maxlength="300" autocomplete="off"
+              required placeholder="Aqui..." pattern="[A-Za-z0-9]+"></textarea>
             </p>
           </fieldset>
           <p>
-            <input type="submit" value="Enviar"/>
-            <input type="reset" value="Limpiar"/>
+            <input type="submit" value="Enviar"/><i class='bx bxs-send'></i>
+            <input type="reset" value="Limpiar"/><i class='bx bx-refresh'></i>
           </p>
         </form>
       </article>
